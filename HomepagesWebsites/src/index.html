@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="My Homepages Template">
@@ -9,11 +10,72 @@
     <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="./styles/index.css"/>
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li class="navbar-lines">
+                    <a class="navbar-links" href="./index.html">Home</a>
+                </li>
+                <li class="navbar-lines">
+                    <a class="navbar-links" href="./pages/contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="./scripts/index.js"></script> 
+    <main>
+        <section class="slide-bar">
+
+        </section>
+
+        <section class="content-main">
+            <article class="content">
+                <img class="content-image" src="./assets/chrome.png" alt="Google Chrome logo">
+                <h2 class="content-title">Google Chrome</h2>
+                <p class="content-quote">Google Chrome is a web browser developed by Google, released in 2008. Chrome is
+                    the world's most popular
+                    web browser today!</p>
+            </article>
+            <article>
+                <img class="content-image" src="./assets/firefox.png" alt="Mozilla Firefox logo">
+                <h2 class="content-title">Mozilla Firefox</h2>
+                <p class="content-quote">Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has
+                    been the second most
+                    popular web browser since January, 2018.</p>
+            </article>
+
+            <article>
+                <img class="content-image" src="./assets/edge.png" alt="Microsfot Edge logo">
+                <h2 class="content-title">Microsoft Edge</h2>
+                <p class="content-quote">Microsoft Edge is a web browser developed by Microsoft, released in 2015.
+                    Microsoft Edge replaced
+                    Internet Explorer.</p>
+            </article>
+        </section>
+        <section class="partners">
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-author">
+        <address>
+            Pedro Lima Developer &copy;
+            <a class="social-media-footer" href="https://www.linkedin.com/in/pedrofreitaslima">Pedro Lima </a>&reg; 2022
+        </address>
+        </p>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
 </body>
+
 </html>
